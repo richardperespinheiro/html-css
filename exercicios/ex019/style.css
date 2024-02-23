@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* HTML|   |CSS
+    id | = | # (só um elemento)
+ class | = | . (pode vários elementos)
+    */
+
+body {
+    background-color: rgb(177, 255, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+#principal {
+    text-align: center;
+    font-size: 3em;
+    color: aliceblue;
+    background-color: green;
+}
+
+h2 {
+    color: rgb(0, 187, 0);
+}
+
+.lev {
+    color: aliceblue;
+    background-color: green;
+}
+
+p {
+    text-align: justify;
+}

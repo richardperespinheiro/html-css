@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            background-color: lightslategrey;
+            height: 100%;
+            
+        }
+        
+        header > h1 {
+            text-align: center;
+            background-color: rgb(95, 109, 122);
+            padding: 10px;
+            max-width: 700px;
+            margin: 10px auto;
+            border-color: aqua;
+            border-style: solid;
+            border-width: 3px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.411);
+        }
+        nav{
+            background-color: rgb(95, 109, 122);
+            padding: 5px 10px;
+            margin: auto;
+            max-width: 700px;
+            font-weight: bold;
+            border-color: aqua;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.411);
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            padding-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        #noticias {
+            background-color: rgb(95, 109, 122);
+            padding: 5px 10px;
+            margin: 10px auto;
+            max-width: 700px;
+            border-color: aqua;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.411);
+        }
+        footer {
+            background-color: rgb(48, 55, 61);
+            margin: auto;
+            padding: 2px 10px;
+            width: 100%;
+            font-weight: bold;
+            margin: 0px;
+            
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #bola {
+            border-radius: 100%;
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            margin: 20px auto;
+            border-color: black;
+            border-style: solid;
+            border-width: 3px;
+        }
+        #bola:hover {
+            background-color: rgb(126, 33, 33);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre lorem</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda exercitationem dolorem distinctio, harum dignissimos non eum cumque autem unde. Ea vero fuga tenetur voluptatibus impedit natus sequi expedita sapiente porro?</p>
+                <aside>
+                    <p>Artigo escrito por Jacinto Pinto</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ricardão</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
