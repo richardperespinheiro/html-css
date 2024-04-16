@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        caption {
+            font-size: 1.5em;
+        }
+        .cnome {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td >Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Barro</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Pedro Mota</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Joana Terra</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Operadora de caixa</td>
+        </tr>
+        <tr>
+            <td>Melissa Paula</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Empresária</td>
+        </tr>
+    </table>
+</body>
+</html>
