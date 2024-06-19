@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de novo (:</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="sxmas"><label for="sxmas">Masculino</label>
+            <input type="radio" name="sexo" id="sxfem"><label for="sxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Jogos Favoritos</legend>
+
+            <input type="checkbox" name="jocod" id="ijocod"> <label for="ijocod">Call Of Duty</label><br>
+
+            <input type="checkbox" name="jofh" id="ijofh"> <label for="ijofh">Forza Horizon</label><br>
+
+            <input type="checkbox" name="joasc" id="ijoasc"> <label for="ijoasc">Asseto Corsa</label><br>
+
+            <input type="checkbox" name="jogt" id="ijogt"> <label for="ijogt">Gram Turismo</label><br>
+
+            <input type="checkbox" name="joff" id="ijoff"> <label for="ijoff">FIFA</label><br>
+
+            <input type="checkbox" name="jord" id="ijord"> <label for="ijord">Red Dead 2</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
