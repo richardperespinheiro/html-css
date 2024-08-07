@@ -17,6 +17,7 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
+    font-size: 2.1em;
 }
 
 menu {
@@ -51,5 +52,19 @@ main {
     width: 90%;
     background-color: white;
     margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article > h2 {
     padding: 20px;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
